@@ -3,9 +3,9 @@
 // Example:
 //
 // 	type someStruct struct {
-// 	Field1 string `url:"f1"`
-// 	Field2 int `url:"f2"`
-// }
+// 		Field1 string `url:"f1"`
+// 		Field2 int `url:"f2"`
+// 	}
 //
 // ts := &someStruct{}
 // querystring.Decode(httpReq.URL.Query(), ts)
